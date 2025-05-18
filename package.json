@@ -1,0 +1,26 @@
+{
+  "name": "my-test-app",
+  "version": "1.0.1",
+  "dependencies": {
+    "vue":"3.5.14",
+    "core-js":"3.42.0",
+    "express": "5.1.0",
+    "mongodb": "6.16.0"
+        
+  },
+
+  "devDependencies": {
+    "@vue/compiler-sfc":"3.5.14",
+    "@vue/cli-service":"5.0.8",
+    "jest": "29.7.0",
+    "supertest": "7.1.1"
+  },
+
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "start": "node server.js",
+    "test": "jest"
+
+  }
+}

@@ -1,3 +1,3 @@
 var price = 20
 
-discounted price = 15
+var discountedPrice = 15
